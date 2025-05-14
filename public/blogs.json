@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "cover": "https://picsum.photos/seed/1/400/300",
+    "title": "The Power of Habits",
+    "author": "Alex Morgan",
+    "author_img": "https://randomuser.me/api/portraits/men/11.jpg",
+    "posted_date": "2024-11-21",
+    "reading_time": 6,
+    "hashtags": ["#selfhelp", "#productivity", "#habits"]
+  },
+  {
+    "id": 2,
+    "cover": "https://picsum.photos/seed/2/400/300",
+    "title": "Design Thinking for Beginners",
+    "author": "Sarah Blake",
+    "author_img": "https://randomuser.me/api/portraits/women/45.jpg",
+    "posted_date": "2024-12-04",
+    "reading_time": 8,
+    "hashtags": ["#design", "#thinking", "#innovation"]
+  },
+  {
+    "id": 3,
+    "cover": "https://picsum.photos/seed/3/400/300",
+    "title": "Mastering Remote Work",
+    "author": "John Lee",
+    "author_img": "https://randomuser.me/api/portraits/men/32.jpg",
+    "posted_date": "2025-01-10",
+    "reading_time": 7,
+    "hashtags": ["#remote", "#work", "#lifestyle"]
+  },
+  {
+    "id": 4,
+    "cover": "https://picsum.photos/seed/4/400/300",
+    "title": "AI and the Future of Jobs",
+    "author": "Emma Wilson",
+    "author_img": "https://randomuser.me/api/portraits/women/10.jpg",
+    "posted_date": "2025-02-18",
+    "reading_time": 5,
+    "hashtags": ["#ai", "#future", "#technology"]
+  },
+  {
+    "id": 5,
+    "cover": "https://picsum.photos/seed/5/400/300",
+    "title": "Startup Lessons from Failure",
+    "author": "Daniel Green",
+    "author_img": "https://randomuser.me/api/portraits/men/59.jpg",
+    "posted_date": "2025-03-02",
+    "reading_time": 9,
+    "hashtags": ["#startup", "#failure", "#lessons"]
+  },
+  {
+    "id": 6,
+    "cover": "https://picsum.photos/seed/6/400/300",
+    "title": "Healthy Eating on a Budget",
+    "author": "Lily Adams",
+    "author_img": "https://randomuser.me/api/portraits/women/33.jpg",
+    "posted_date": "2025-03-22",
+    "reading_time": 4,
+    "hashtags": ["#health", "#budget", "#nutrition"]
+  },
+  {
+    "id": 7,
+    "cover": "https://picsum.photos/seed/7/400/300",
+    "title": "Building Better Habits with Science",
+    "author": "Michael Chen",
+    "author_img": "https://randomuser.me/api/portraits/men/27.jpg",
+    "posted_date": "2025-04-05",
+    "reading_time": 6,
+    "hashtags": ["#science", "#habits", "#psychology"]
+  },
+  {
+    "id": 8,
+    "cover": "https://picsum.photos/seed/8/400/300",
+    "title": "Travel Hacks for Digital Nomads",
+    "author": "Nina Roy",
+    "author_img": "https://randomuser.me/api/portraits/women/22.jpg",
+    "posted_date": "2025-04-16",
+    "reading_time": 7,
+    "hashtags": ["#travel", "#nomad", "#lifestyle"]
+  },
+  {
+    "id": 9,
+    "cover": "https://picsum.photos/seed/9/400/300",
+    "title": "The Art of Minimalism",
+    "author": "Oliver Hayes",
+    "author_img": "https://randomuser.me/api/portraits/men/14.jpg",
+    "posted_date": "2025-04-27",
+    "reading_time": 5,
+    "hashtags": ["#minimalism", "#simplicity", "#focus"]
+  },
+  {
+    "id": 10,
+    "cover": "https://picsum.photos/seed/10/400/300",
+    "title": "How to Read More Books",
+    "author": "Grace Kim",
+    "author_img": "https://randomuser.me/api/portraits/women/12.jpg",
+    "posted_date": "2025-05-10",
+    "reading_time": 6,
+    "hashtags": ["#reading", "#books", "#learning"]
+  }
+]
