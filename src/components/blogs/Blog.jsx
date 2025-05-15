@@ -10,8 +10,8 @@ useEffect(()=>{
 },[])
 
   return (
-    <div>
-      Blogs
+    <div className='md:w-2/3'>
+      <h1 className='text-2xl'>Blogs:{blogs.length}</h1>
     </div>
   )
 }
