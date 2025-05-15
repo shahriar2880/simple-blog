@@ -1,8 +1,9 @@
-
+import profile from "../../assets/react.svg"
 const Header = () => {
   return (
-    <div>
-      <h1 className="text-2xl font-bold">This is Header</h1>
+    <div className="flex justify-between p-4 mx-4 border-b-1">
+      <h1 className="text-4xl font-bold">Blog Post</h1>
+      <img src={profile} alt=""/>
     </div>
   )
 }
