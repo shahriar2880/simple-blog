@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"; // ES6
 import { FiBookmark } from "react-icons/fi";
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog, handleAddToBookmark }) => {
   const {
     title,
     cover,
@@ -32,7 +32,9 @@ const Blog = ({ blog }) => {
         </div>
         <div className="flex items-center text-sm text-amber-700 font-light">
           <span className="">{reading_time} min read</span>
-          <button className="ml-2"><FiBookmark/></button>
+          <button onClick={()=>handleAddToBookmark(blog)} className="ml-2">
+            <FiBookmark />
+          </button>
         </div>
       </div>
       <h2 className="text-3xl ">{title}</h2>
@@ -52,6 +54,7 @@ const Blog = ({ blog }) => {
 
 Blog.propTypes = {
   blog: PropTypes.object.isRequired,
+  handleAddToBookmark: PropTypes.function
 };
 
 export default Blog;
