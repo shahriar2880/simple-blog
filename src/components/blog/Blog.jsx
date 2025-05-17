@@ -1,10 +1,23 @@
 import PropTypes from "prop-types"; // ES6
+import { FiBookmark } from "react-icons/fi";
 
 const Blog = ({ blog }) => {
-  const { title, cover, author_img, author, reading_time, posted_date , hashtags } = blog;
+  const {
+    title,
+    cover,
+    author_img,
+    author,
+    reading_time,
+    posted_date,
+    hashtags,
+  } = blog;
   return (
     <div className="mb-15">
-      <img className="w-full mb-8" src={cover} alt="Cover picture of the title" />
+      <img
+        className="w-full mb-8"
+        src={cover}
+        alt="Cover picture of the title"
+      />
       <div className="flex justify-between mt-2 mb-4">
         <div className="flex">
           <img
@@ -17,18 +30,22 @@ const Blog = ({ blog }) => {
             <p className="text-sm text-teal-600">{posted_date}</p>
           </div>
         </div>
-        <div>
-          {reading_time}{" "}
-          <span className="text-md text-amber-700 font-light">minutes</span>
+        <div className="flex items-center text-sm text-amber-700 font-light">
+          <span className="">{reading_time} min read</span>
+          <button className="ml-2"><FiBookmark/></button>
         </div>
       </div>
       <h2 className="text-3xl ">{title}</h2>
       <p className="mt-2">
-        {
-            hashtags.map((hash, index) => <span className="mt-2" key={index}><a href="">{hash}</a></span>)
-        }
+        {hashtags.map((hash, index) => (
+          <span className="mt-2" key={index}>
+            <a href="">{hash}</a>
+          </span>
+        ))}
       </p>
-      <a className="text-blue-300 text-sm underline" href="">Mark as read</a>
+      <a className="text-blue-300 text-sm underline" href="">
+        Mark as read
+      </a>
     </div>
   );
 };
