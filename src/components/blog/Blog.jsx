@@ -3,10 +3,9 @@ import PropTypes from "prop-types"; // ES6
 const Blog = ({ blog }) => {
   const { title, cover, author_img, author, reading_time, posted_date , hashtags } = blog;
   return (
-    <div>
-      
-      <img src={cover} alt="Cover picture of the title" />
-      <div className="flex justify-between">
+    <div className="mb-15">
+      <img className="w-full mb-8" src={cover} alt="Cover picture of the title" />
+      <div className="flex justify-between mt-2 mb-4">
         <div className="flex">
           <img
             className="rounded-full h-14 w-14"
@@ -23,12 +22,13 @@ const Blog = ({ blog }) => {
           <span className="text-md text-amber-700 font-light">minutes</span>
         </div>
       </div>
-      <h2 className="text-3xl">{title}</h2>
-      <p>
+      <h2 className="text-3xl ">{title}</h2>
+      <p className="mt-2">
         {
-            hashtags.map((hash, index) => <span key={index}><a href=""> {hash}</a></span>)
+            hashtags.map((hash, index) => <span className="mt-2" key={index}><a href="">{hash}</a></span>)
         }
       </p>
+      <a className="text-blue-300 text-sm underline" href="">Mark as read</a>
     </div>
   );
 };
