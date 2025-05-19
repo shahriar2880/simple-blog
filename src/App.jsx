@@ -14,7 +14,7 @@ function App() {
   }
 
   const handleMarkAsRead = time =>{
-    const newReadingTime = [...readingTime, time];
+    const newReadingTime = readingTime + time;
     setReadingTime(newReadingTime);
   }
 
@@ -23,7 +23,7 @@ function App() {
       <Header />
       <div className="md:flex max-w-7xl mx-auto">
         <Blogs handleMarkAsRead={handleMarkAsRead} handleAddToBookmark={handleAddToBookmark}/>
-        <Bookmarks bookmarks={bookmarks}/>
+        <Bookmarks bookmarks={bookmarks} readingTime={readingTime}/>
       </div>
     </div>
   );
