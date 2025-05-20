@@ -6,12 +6,12 @@ const Bookmarks = ({bookmarks, readingTime}) => {
 
   return (
     <div className='md:w-1/3 rounded bg-gray-100 ml-4 mt-2'>
-      <div className=' text-xs bg-amber-100 rounded'>
+      <div className=' text-xs bg-amber-100 rounded p-4 m-4'>
         <h2 className="text-4xl">Reading Time: {readingTime} <span className='text-red-300'>minutes</span></h2>
       </div>
       <h2 className='p-4 m-4 text-md bg-amber-100 rounded'>Booksmarked Blogs: {bookmarks.length}</h2>
       {
-        bookmarks.map(bookmark => <Bookmark key={bookmark.id} bookmark={bookmark}/>)
+        bookmarks.map((bookmark, index) => <Bookmark key={index} bookmark={bookmark}/>)
       }
     </div>
   )
